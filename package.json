@@ -1,0 +1,19 @@
+{
+  "name": "reduxiplate",
+  "version": "0.1.0",
+  "description": "A simple fullstack boilerplate using react, redux, jspm, express, PostCSS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "jspm",
+    "express",
+    "postcss",
+    "boilerplate"
+  ],
+  "author": "Mutahhir Ali Hayat <mutahhir.ali@gmail.com>",
+  "license": "MIT"
+}
