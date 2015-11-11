@@ -8,6 +8,8 @@ import path from 'path';
 
 const app = express();
 
+import apiRouter from './server/routes/api';
+
 app.set('port', process.env.PORT || 3000);
 app.use(compress());
 app.use(morgan('combined'));
@@ -15,6 +17,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride());
 app.use(express.static(path.join(__dirname, 'client'), {maxAge: 31557600000}));
+
+app.use('/api', apiRouter);
 
 app.get('*', (req, res) => {
   res.send(path.join(__dirname, 'client', 'index.html'));
