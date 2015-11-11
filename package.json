@@ -15,5 +15,9 @@
     "boilerplate"
   ],
   "author": "Mutahhir Ali Hayat <mutahhir.ali@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "eslint-plugin-react": "^3.8.0"
+  }
 }
