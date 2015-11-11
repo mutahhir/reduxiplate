@@ -1,0 +1,1 @@
+export const INCREMENT_ACTION = 'INCREMENT_ACTION';

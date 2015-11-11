@@ -19,6 +19,7 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "history": "npm:history@1.13.0",
     "react": "npm:react@0.14.2",
+    "react-dom": "npm:react-dom@0.14.2",
     "react-redux": "npm:react-redux@4.0.0",
     "react-router": "npm:react-router@1.0.0",
     "redux": "npm:redux@3.0.4",
@@ -135,6 +136,9 @@ System.config({
     "npm:promise@7.0.4": {
       "asap": "npm:asap@2.0.3",
       "fs": "github:jspm/nodelibs-fs@0.1.2"
+    },
+    "npm:react-dom@0.14.2": {
+      "react": "npm:react@0.14.2"
     },
     "npm:react-redux@4.0.0": {
       "hoist-non-react-statics": "npm:hoist-non-react-statics@1.0.3",
