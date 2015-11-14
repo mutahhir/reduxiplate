@@ -23,7 +23,9 @@ System.config({
     "react-redux": "npm:react-redux@4.0.0",
     "react-router": "npm:react-router@1.0.0",
     "redux": "npm:redux@3.0.4",
+    "redux-logger": "npm:redux-logger@2.0.4",
     "redux-simple-router": "npm:redux-simple-router@0.0.7",
+    "redux-thunk": "npm:redux-thunk@1.0.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -169,6 +171,10 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:redux-logger@2.0.4": {
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:redux@3.0.4": {
       "process": "github:jspm/nodelibs-process@0.1.2"
