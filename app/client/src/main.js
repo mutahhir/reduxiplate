@@ -6,7 +6,9 @@ import { syncReduxAndRouter } from 'redux-simple-router';
 import configureStore from './store/configure-store';
 import Root from './containers/root';
 
-const store = configureStore();
+let initialState = window.__INITIAL_STATE__;
+
+const store = configureStore(initialState);
 const history = createBrowserHistory();
 
 syncReduxAndRouter(history, store);
