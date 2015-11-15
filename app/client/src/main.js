@@ -1,12 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Provider } from 'react-redux';
-import { Router, Route } from 'react-router';
 import createBrowserHistory from 'history/lib/createBrowserHistory';
 import { syncReduxAndRouter } from 'redux-simple-router';
 
-import configureStore from './configure-store';
-import App from './containers/app';
+import configureStore from './store/configure-store';
+import Root from './containers/root';
 
 const store = configureStore();
 const history = createBrowserHistory();
@@ -14,11 +12,6 @@ const history = createBrowserHistory();
 syncReduxAndRouter(history, store);
 
 render(
-  <Provider store={store}>
-    <Router history={history}>
-      <Route path="/" component={App}>
-      </Route>
-    </Router>
-  </Provider>,
+  <Root store={store} history={history}/>,
   document.querySelector('.container')
 );

@@ -37,6 +37,7 @@
       "baseURL": "app/client"
     },
     "dependencies": {
+      "gaearon/redux-devtools": "github:gaearon/redux-devtools@^2.1.5",
       "history": "npm:history@^1.13.0",
       "react": "npm:react@^0.14.2",
       "react-dom": "npm:react-dom@^0.14.2",

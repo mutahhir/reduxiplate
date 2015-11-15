@@ -15,14 +15,18 @@ System.config({
 
   map: {
     "babel": "npm:babel-core@5.8.33",
-    "babel-runtime": "npm:babel-runtime@5.8.29",
+    "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
+    "gaearon/redux-devtools": "github:gaearon/redux-devtools@2.1.5",
     "history": "npm:history@1.13.0",
     "react": "npm:react@0.14.2",
     "react-dom": "npm:react-dom@0.14.2",
     "react-redux": "npm:react-redux@4.0.0",
     "react-router": "npm:react-router@1.0.0",
     "redux": "npm:redux@3.0.4",
+    "redux-devtools": "npm:redux-devtools@3.0.0-beta-2",
+    "redux-devtools-dock-monitor": "npm:redux-devtools-dock-monitor@1.0.0-beta-3",
+    "redux-devtools-log-monitor": "npm:redux-devtools-log-monitor@1.0.0-beta-3",
     "redux-logger": "npm:redux-logger@2.0.4",
     "redux-simple-router": "npm:redux-simple-router@0.0.7",
     "redux-thunk": "npm:redux-thunk@1.0.0",
@@ -30,7 +34,7 @@ System.config({
       "assert": "npm:assert@1.3.0"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.5.1"
+      "buffer": "npm:buffer@3.5.2"
     },
     "github:jspm/nodelibs-domain@0.1.0": {
       "domain-browser": "npm:domain-browser@1.1.4"
@@ -63,10 +67,10 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:babel-runtime@5.8.29": {
+    "npm:babel-runtime@5.8.34": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:buffer@3.5.1": {
+    "npm:buffer@3.5.2": {
       "base64-js": "npm:base64-js@0.0.8",
       "ieee754": "npm:ieee754@1.1.6",
       "is-array": "npm:is-array@1.0.1"
@@ -123,6 +127,12 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "source-map": "npm:source-map@0.1.31"
     },
+    "npm:lodash.debounce@3.1.1": {
+      "lodash._getnative": "npm:lodash._getnative@3.9.1"
+    },
+    "npm:lodash@3.10.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:loose-envify@1.1.0": {
       "js-tokens": "npm:js-tokens@1.0.2",
       "process": "github:jspm/nodelibs-process@0.1.2",
@@ -139,8 +149,22 @@ System.config({
       "asap": "npm:asap@2.0.3",
       "fs": "github:jspm/nodelibs-fs@0.1.2"
     },
+    "npm:react-dock@0.2.3": {
+      "lodash.debounce": "npm:lodash.debounce@3.1.1",
+      "object-assign": "npm:object-assign@4.0.1",
+      "react": "npm:react@0.14.2"
+    },
     "npm:react-dom@0.14.2": {
       "react": "npm:react@0.14.2"
+    },
+    "npm:react-json-tree@0.2.0": {
+      "babel-runtime": "npm:babel-runtime@5.8.34",
+      "react": "npm:react@0.14.2",
+      "react-mixin": "npm:react-mixin@1.7.0"
+    },
+    "npm:react-mixin@1.7.0": {
+      "object-assign": "npm:object-assign@2.1.1",
+      "smart-mixin": "npm:smart-mixin@1.2.1"
     },
     "npm:react-redux@4.0.0": {
       "hoist-non-react-statics": "npm:hoist-non-react-statics@1.0.3",
@@ -171,6 +195,35 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:redux-devtools-dock-monitor@1.0.0-beta-3": {
+      "babel-runtime": "npm:babel-runtime@5.8.34",
+      "react": "npm:react@0.14.2",
+      "react-dock": "npm:react-dock@0.2.3",
+      "react-pure-render": "npm:react-pure-render@1.0.2",
+      "redux-devtools": "npm:redux-devtools@3.0.0-beta-3"
+    },
+    "npm:redux-devtools-log-monitor@1.0.0-beta-3": {
+      "react": "npm:react@0.14.2",
+      "react-json-tree": "npm:react-json-tree@0.2.0",
+      "react-pure-render": "npm:react-pure-render@1.0.2",
+      "redux-devtools": "npm:redux-devtools@3.0.0-beta-3",
+      "redux-devtools-themes": "npm:redux-devtools-themes@1.0.0"
+    },
+    "npm:redux-devtools-themes@1.0.0": {
+      "base16": "npm:base16@1.0.0"
+    },
+    "npm:redux-devtools@3.0.0-beta-2": {
+      "lodash": "npm:lodash@3.10.1",
+      "react": "npm:react@0.14.2",
+      "react-redux": "npm:react-redux@4.0.0",
+      "redux": "npm:redux@3.0.4"
+    },
+    "npm:redux-devtools@3.0.0-beta-3": {
+      "lodash": "npm:lodash@3.10.1",
+      "react": "npm:react@0.14.2",
+      "react-redux": "npm:react-redux@4.0.0",
+      "redux": "npm:redux@3.0.4"
     },
     "npm:redux-logger@2.0.4": {
       "path": "github:jspm/nodelibs-path@0.1.0",
