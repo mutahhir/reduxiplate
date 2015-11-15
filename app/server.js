@@ -69,7 +69,7 @@ function renderFullPage (html, initialState) {
 
   var out = [
     pre,
-    initialStateTag,
+    initialStateTag + '\n',
     innerPre,
     html,
     innerPost,
