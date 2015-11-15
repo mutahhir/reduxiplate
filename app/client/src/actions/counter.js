@@ -5,3 +5,17 @@ export function incrementCounter () {
     type: ActionTypes.INCREMENT_ACTION
   };
 }
+
+
+export function decrementCounter () {
+  return {
+    type: ActionTypes.DECREMENT_ACTION
+  };
+}
+
+
+export function resetCounter () {
+  return {
+    type: ActionTypes.RESET_ACTION
+  };
+}
