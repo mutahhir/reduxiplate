@@ -2,4 +2,4 @@
 
 require('babel-core/register');
 
-require('./app/server.js');
+require('./app/main/app.js');

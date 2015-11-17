@@ -1,10 +1,10 @@
 {
   "name": "reduxiplate",
   "version": "0.1.0",
-  "description": "A simple fullstack boilerplate using react, redux, jspm, express, PostCSS ",
+  "description": "A simple fullstack boilerplate for Electron using react, redux, jspm, express",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "electron ."
   },
   "keywords": [
     "react",
@@ -12,7 +12,8 @@
     "jspm",
     "express",
     "postcss",
-    "boilerplate"
+    "boilerplate",
+    "electron"
   ],
   "author": "Mutahhir Ali Hayat <mutahhir.ali@gmail.com>",
   "license": "MIT",
@@ -28,6 +29,7 @@
     "babel-preset-react": "^6.1.18",
     "body-parser": "^1.14.1",
     "compression": "^1.6.0",
+    "electron-debug": "^0.4.1",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
     "jspm": "^0.16.14",
